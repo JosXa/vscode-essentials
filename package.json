@@ -1,10 +1,14 @@
 {
     "name": "vscode-essentials",
-    "repository": "https://github.com/josxa/vscode-essentials",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/josxa/vscode-essentials"
+    },
+    "uri": "https://marketplace.visualstudio.com/items?itemName=josxa.vscode-essentials",
     "publisher": "josxa",
     "displayName": "vscode-essentials",
     "description": "My personal collection of essential VSCode plugins.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "scripts": {
         "build": "python -m convert && vsce package",
         "package": "vsce package"
@@ -20,7 +24,6 @@
         "emmanuelbeziat.vscode-great-icons",
         "kevinchatham.openwithcode",
         "cameron.rerun-last-command",
-        "ms-vscode-remote.vscode-remote-extensionpack",
         "github.codespaces",
         "ms-vsonline.vsonline",
         "ms-azuretools.vscode-docker",
@@ -37,6 +40,7 @@
         "gruntfuggly.todo-tree",
         "bierner.emojisense",
         "redhat.vscode-yaml",
+        "mikestead.dotenv",
         "zainchen.json",
         "quicktype.quicktype",
         "ego-digital.vscode-powertools",
@@ -45,11 +49,13 @@
         "vscode-snippet.snippet",
         "alexey-strakh.stackoverflow-search",
         "twounderscorez.vscode-websearch",
-        "hoovercj.vscode-power-mode"
+        "ctf0.macros"
     ],
-
     "devDependencies": {
         "webpack": "^5.10.1",
         "webpack-cli": "^4.2.0"
+    },
+    "dependencies": {
+        "vsce": "^1.81.1"
     }
 }

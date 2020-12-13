@@ -26,6 +26,7 @@
         "gruntfuggly.todo-tree",
         "bierner.emojisense", //:emoji: autocompletion
         "redhat.vscode-yaml",
+        "mikestead.dotenv", // Dotenv syntax
         // JSON tooling
         "zainchen.json", // JSON outline as a tab
         "quicktype.quicktype", // Pasting JSON as code
@@ -39,6 +40,7 @@
         "alexey-strakh.stackoverflow-search", // Highlight text, execute "Stackoverflow Search" for a dropdown with results
         "twounderscorez.vscode-websearch", // DDG search ("> Web Search")
         // Fun
-        "hoovercj.vscode-power-mode" // Power mode, because of course!  (enable with `"powermode.enabled": true`)
+        // VSCode automation
+        "ctf0.macros"
     ]
 }
