@@ -8,7 +8,7 @@
     "publisher": "josxa",
     "displayName": "vscode-essentials",
     "description": "My personal collection of essential VSCode plugins.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "scripts": {
         "build": "python -m convert && vsce package",
         "package": "vsce package"
@@ -19,10 +19,16 @@
     "categories": [
         "Extension Packs"
     ],
+    "release": {
+        "branches": [
+            "main"
+        ]
+    },
     "extensionPack": [
         "vscodevim.vim",
         "emmanuelbeziat.vscode-great-icons",
         "kevinchatham.openwithcode",
+        "alefragnani.project-manager",
         "cameron.rerun-last-command",
         "ms-vscode-remote.vscode-remote-extensionpack",
         "github.codespaces",
@@ -37,6 +43,7 @@
         "michelemelluso.gitignore",
         "hasanali.gitignore-templates",
         "ryu1kn.remote-repo-viewer",
+        "felipecaputo.git-project-manager",
         "tabnine.tabnine-vscode",
         "wayou.vscode-todo-highlight",
         "gruntfuggly.todo-tree",

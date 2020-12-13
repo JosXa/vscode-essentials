@@ -4,6 +4,7 @@
         // File Explorer
         "emmanuelbeziat.vscode-great-icons", // File icons
         "kevinchatham.openwithcode", // Right click -> Open in new window
+        "alefragnani.project-manager", // Regular project manager (git project manager also included)
         // Terminal
         "cameron.rerun-last-command",
         // Containers and Remote Development
@@ -21,6 +22,7 @@
         "michelemelluso.gitignore", // Add file to gitignore with right-click
         "hasanali.gitignore-templates", // Gitignore Templates
         "ryu1kn.remote-repo-viewer", // Remote repository viewer (> Git: Open Repository)
+        "felipecaputo.git-project-manager", // Git project manager
         // Editor and Coding
         "tabnine.tabnine-vscode",
         "wayou.vscode-todo-highlight", // Highlights TODO items
