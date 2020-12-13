@@ -1,0 +1,7 @@
+.vscode/**
+.vscode-test/**
+node-modules/**
+.github/**
+.gitignore
+vsc-extension-quickstart.md
+convert.py

@@ -1,0 +1,44 @@
+{
+    "extensionPack": [
+        "vscodevim.vim", // VIM!!!
+        // File Explorer
+        "emmanuelbeziat.vscode-great-icons", // File icons
+        "kevinchatham.openwithcode", // Right click -> Open in new window
+        // Terminal
+        "cameron.rerun-last-command",
+        // Containers and Remote Development
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "github.codespaces", // GitHub Codespaces
+        "ms-vsonline.vsonline", // Visual Studio Codespaces (TODO: soon deprecated)
+        "ms-azuretools.vscode-docker",
+        // Git(Hub)
+        "vsls-contrib.gistfs", // GitHub gists
+        "alfredbirk.git-add-commit-push", // Add, commit, push in one command
+        "cimdalli.git-commit-amend-push-force", // amend commit, force push in one command
+        "maixiaojie.git-emoji", // Emojis in commit messages
+        "donjayamanne.git-extension-pack", // Git extension pack
+        "codezombiech.gitignore", // Gitignore support
+        "michelemelluso.gitignore", // Add file to gitignore with right-click
+        "hasanali.gitignore-templates", // Gitignore Templates
+        // Editor and Coding
+        "tabnine.tabnine-vscode",
+        "wayou.vscode-todo-highlight", // Highlights TODO items
+        "gruntfuggly.todo-tree",
+        "bierner.emojisense", //:emoji: autocompletion
+        "redhat.vscode-yaml",
+        // JSON tooling
+        "zainchen.json", // JSON outline as a tab
+        "quicktype.quicktype", // Pasting JSON as code
+        "ego-digital.vscode-powertools", // Power Tools
+        // Python
+        "ms-python.vscode-pylance", // Pylance
+        // Snippets
+        "artydeveloperduck.save-as-snippet",
+        "vscode-snippet.snippet", // "Find Snippet" command (from https://cht.sh)
+        // Search
+        "alexey-strakh.stackoverflow-search", // Highlight text, execute "Stackoverflow Search" for a dropdown with results
+        "twounderscorez.vscode-websearch", // DDG search ("> Web Search")
+        // Fun
+        "hoovercj.vscode-power-mode" // Power mode, because of course!  (enable with `"powermode.enabled": true`)
+    ]
+}

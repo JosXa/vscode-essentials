@@ -1,0 +1,55 @@
+{
+    "name": "vscode-essentials",
+    "repository": "https://github.com/josxa/vscode-essentials",
+    "publisher": "josxa",
+    "displayName": "vscode-essentials",
+    "description": "My personal collection of essential VSCode plugins.",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "python -m convert && vsce package",
+        "package": "vsce package"
+    },
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "vscodevim.vim",
+        "emmanuelbeziat.vscode-great-icons",
+        "kevinchatham.openwithcode",
+        "cameron.rerun-last-command",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "github.codespaces",
+        "ms-vsonline.vsonline",
+        "ms-azuretools.vscode-docker",
+        "vsls-contrib.gistfs",
+        "alfredbirk.git-add-commit-push",
+        "cimdalli.git-commit-amend-push-force",
+        "maixiaojie.git-emoji",
+        "donjayamanne.git-extension-pack",
+        "codezombiech.gitignore",
+        "michelemelluso.gitignore",
+        "hasanali.gitignore-templates",
+        "tabnine.tabnine-vscode",
+        "wayou.vscode-todo-highlight",
+        "gruntfuggly.todo-tree",
+        "bierner.emojisense",
+        "redhat.vscode-yaml",
+        "zainchen.json",
+        "quicktype.quicktype",
+        "ego-digital.vscode-powertools",
+        "ms-python.vscode-pylance",
+        "artydeveloperduck.save-as-snippet",
+        "vscode-snippet.snippet",
+        "alexey-strakh.stackoverflow-search",
+        "twounderscorez.vscode-websearch",
+        "hoovercj.vscode-power-mode"
+    ],
+
+    "devDependencies": {
+        "webpack": "^5.10.1",
+        "webpack-cli": "^4.2.0"
+    }
+}
