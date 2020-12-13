@@ -20,6 +20,7 @@
         "codezombiech.gitignore", // Gitignore support
         "michelemelluso.gitignore", // Add file to gitignore with right-click
         "hasanali.gitignore-templates", // Gitignore Templates
+        "ryu1kn.remote-repo-viewer", // Remote repository viewer (> Git: Open Repository)
         // Editor and Coding
         "tabnine.tabnine-vscode",
         "wayou.vscode-todo-highlight", // Highlights TODO items
