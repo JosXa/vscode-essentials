@@ -6,7 +6,8 @@
 	"recommendations": [
 		"onlyutkarsh.vsix-viewer",
 		"igordvlpr.pack-vsix",
-		"fabiospampinato.vscode-install-vsix"
+		"fabiospampinato.vscode-install-vsix",
+		"ms-vscode.powershell-preview"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

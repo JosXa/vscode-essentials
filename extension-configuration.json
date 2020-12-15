@@ -1,6 +1,8 @@
 {
     "extensionPack": [
-        "vscodevim.vim", // VIM!!!
+        // Editor configuration
+        "vscodevim.vim",
+        "vspacecode.vspacecode",
         // File Explorer
         "emmanuelbeziat.vscode-great-icons", // File icons
         "kevinchatham.openwithcode", // Right click -> Open in new window
@@ -13,17 +15,17 @@
         "ms-vsonline.vsonline", // Visual Studio Codespaces (TODO: soon deprecated)
         "ms-azuretools.vscode-docker",
         // Git(Hub)
-        "vsls-contrib.gistfs", // GitHub gists
         "alfredbirk.git-add-commit-push", // Add, commit, push in one command
+        // DISABLED:  | "vsls-contrib.gistfs", // GitHub gists
         "cimdalli.git-commit-amend-push-force", // amend commit, force push in one command
         "maixiaojie.git-emoji", // Emojis in commit messages
         "donjayamanne.git-extension-pack", // Git extension pack
         "codezombiech.gitignore", // Gitignore support
-        "michelemelluso.gitignore", // Add file to gitignore with right-click
         "hasanali.gitignore-templates", // Gitignore Templates
         "ryu1kn.remote-repo-viewer", // Remote repository viewer (> Git: Open Repository)
         "felipecaputo.git-project-manager", // Git project manager
-        // Editor and Coding
+        "piotrpalarz.vscode-gitignore-generator", // Generate Gitignore
+        // Coding Tools
         "tabnine.tabnine-vscode",
         "wayou.vscode-todo-highlight", // Highlights TODO items
         "gruntfuggly.todo-tree",
@@ -39,11 +41,13 @@
         // Snippets
         "artydeveloperduck.save-as-snippet",
         "vscode-snippet.snippet", // "Find Snippet" command (from https://cht.sh)
+        "wmontalvo.vsc-meta-snippet", // Metasnippet
         // Search
         "alexey-strakh.stackoverflow-search", // Highlight text, execute "Stackoverflow Search" for a dropdown with results
         "twounderscorez.vscode-websearch", // DDG search ("> Web Search")
-        // Fun
-        // VSCode automation
-        "ctf0.macros"
+        // Themes & Fun
+        "sdras.night-owl",
+        // Experimental
+        "ctf0.macros" // VSCode automation
     ]
 }

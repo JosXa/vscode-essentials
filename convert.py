@@ -10,7 +10,7 @@ pkgjson_file = (Path(__file__).parent / "package.json")
 package_json = json.loads(pkgjson_file.read_text())
 
 
-config_json_content = (Path(__file__).parent / "configuration.json").read_text()
+config_json_content = (Path(__file__).parent / "extension-configuration.json").read_text()
 sanitized = re.sub(r'\/\/.*$', '', config_json_content, flags=re.MULTILINE)
 config_json = json.loads(sanitized)
 

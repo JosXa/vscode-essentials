@@ -11,7 +11,8 @@
     "version": "1.0.2",
     "scripts": {
         "build": "python -m convert && vsce package",
-        "package": "vsce package"
+        "package": "vsce package",
+        "preversion": "npm run build && npm run package"
     },
     "engines": {
         "vscode": "^1.51.1"
@@ -26,6 +27,7 @@
     },
     "extensionPack": [
         "vscodevim.vim",
+        "vspacecode.vspacecode",
         "emmanuelbeziat.vscode-great-icons",
         "kevinchatham.openwithcode",
         "alefragnani.project-manager",
@@ -58,7 +60,9 @@
         "vscode-snippet.snippet",
         "alexey-strakh.stackoverflow-search",
         "twounderscorez.vscode-websearch",
-        "ctf0.macros"
+        "sdras.night-owl",
+        "ctf0.macros",
+        "ms-vscode.powershell-preview"
     ],
     "devDependencies": {
         "webpack": "^5.10.1",
