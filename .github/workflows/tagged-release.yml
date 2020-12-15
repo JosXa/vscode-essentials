@@ -16,5 +16,5 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         # https://github.com/marketplace/actions/automatic-releases
         with:
-          repo_token: "${{ secrets.PERSONAL_GITHUB_TOKEN }}"
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
