@@ -8,7 +8,7 @@
     "publisher": "josxa",
     "displayName": "vscode-essentials",
     "description": "My personal collection of essential VSCode plugins.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "scripts": {
         "build": "python -m convert && vsce package",
         "package": "vsce package",
