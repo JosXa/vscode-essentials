@@ -61,6 +61,8 @@
         "alexey-strakh.stackoverflow-search",
         "twounderscorez.vscode-websearch",
         "sdras.night-owl",
+        "jamesmaj.easy-icons",
+        "helgardrichard.helium-icon-theme",
         "ctf0.macros"
     ],
     "devDependencies": {

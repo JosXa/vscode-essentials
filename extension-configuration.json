@@ -47,6 +47,8 @@
         "twounderscorez.vscode-websearch", // DDG search ("> Web Search")
         // Themes & Fun
         "sdras.night-owl",
+        "jamesmaj.easy-icons", // File icons
+        "helgardrichard.helium-icon-theme", // File icons
         // Experimental
         "ctf0.macros" // VSCode automation
     ]
