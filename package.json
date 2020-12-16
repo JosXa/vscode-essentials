@@ -8,7 +8,7 @@
     "publisher": "josxa",
     "displayName": "vscode-essentials",
     "description": "My personal collection of essential VSCode plugins.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "scripts": {
         "build": "python -m convert && vsce package",
         "package": "vsce package",
@@ -43,7 +43,6 @@
         "codezombiech.gitignore",
         "hasanali.gitignore-templates",
         "ryu1kn.remote-repo-viewer",
-        "felipecaputo.git-project-manager",
         "piotrpalarz.vscode-gitignore-generator",
         "tabnine.tabnine-vscode",
         "wayou.vscode-todo-highlight",
@@ -63,6 +62,7 @@
         "sdras.night-owl",
         "jamesmaj.easy-icons",
         "helgardrichard.helium-icon-theme",
+        "usernamehw.when-suggest",
         "ctf0.macros"
     ],
     "devDependencies": {

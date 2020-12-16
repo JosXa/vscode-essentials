@@ -23,7 +23,6 @@
         "codezombiech.gitignore", // Gitignore support
         "hasanali.gitignore-templates", // Gitignore Templates
         "ryu1kn.remote-repo-viewer", // Remote repository viewer (> Git: Open Repository)
-        "felipecaputo.git-project-manager", // Git project manager
         "piotrpalarz.vscode-gitignore-generator", // Generate Gitignore
         // Coding Tools
         "tabnine.tabnine-vscode",
@@ -49,6 +48,8 @@
         "sdras.night-owl",
         "jamesmaj.easy-icons", // File icons
         "helgardrichard.helium-icon-theme", // File icons
+        // VSCode customization
+        "usernamehw.when-suggest", // Suggests values for the "when" property of keybindings json
         // Experimental
         "ctf0.macros" // VSCode automation
     ]
